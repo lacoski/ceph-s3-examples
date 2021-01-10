@@ -24,6 +24,9 @@ python ceph-download-file.py --bucket-name thanhdemo --key-name documents.txt --
 ## Upload file
 python ceph-upload-file.py --bucket-name thanhdemo --key-name requirements.txt --file-name requirements.txt
 
+## Upload file with metadata
+python ceph-upload-file-with-metadata.py --bucket-name thanhdemo --key-name requirements-metadata.txt --file-name requirements.txt
+
 ## Download Object
 python ceph-download-file.py --bucket-name thanhdemo --key-name documents.txt --file-name downloads/documents.txt
 python ceph-download-file.py --bucket-name thanhdemo --key-name requirements.txt --file-name downloads/requirements.txt
